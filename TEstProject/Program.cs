@@ -11,8 +11,8 @@ namespace Exercise_Array_list__Exercise1
 			Console.WriteLine("exercise 2 below ");
 			//ReverseName();
 			//SortListOfNumbers();
-			TypeExitProgram();
-			// SeparatedNumbersWithCommas();
+			//TypeExitProgram();
+			SeparatedNumbersWithCommas();
 
 		}
 		// stores  names into a list 
@@ -204,32 +204,42 @@ namespace Exercise_Array_list__Exercise1
 
 			//   create  a list to store all the small numbers less than 3 
 
-			var smallest = new List<int>();  // list to store the smallest 
+			//var smallest = new List<int>();  // list to store the smallest 
 
-			while (smallest.Count < 3)  //
-			{
-				// assume the first index of number is the min 
-				var min = numbers[0];
+			//while (smallest.Count < 3)  //
+			//{
+			//	// assume the first index of number is the min 
+			//	var min = numbers[0];
 
-				foreach (var number in numbers)   //  iterates starting with the first index of numbers ,checks if its less than min 
-				{
-					if (number < min)
-						min = number;  //  if the current value of  index is lower than the
-									   //  original min value then reset min value to become new min
-				}
-				smallest.Add(min);      // adds the lowest value found  to smallest list 
-				numbers.Remove(min);    // deleates the lowest value  from the general list 
+			//	foreach (var number in numbers)   //  iterates starting with the first index of numbers ,checks if its less than min 
+			//	{
+			//		if (number < min)
+			//			min = number;  //  if the current value of  index is lower than the
+			//						   //  original min value then reset min value to become new min
+			//	}
+			//	smallest.Add(min);      // adds the lowest value found  to smallest list 
+			//	numbers.Remove(min);    // deleates the lowest value  from the general list 
 
-				// check or Test if the size of  the original list has reduced  
-				Console.WriteLine(" Check if New Size of Original List Reduced ? New Size is  : " + numbers.Count);
+			//	// check or Test if the size of  the original list has reduced  
+			//	Console.WriteLine(" Check if New Size of Original List Reduced ? New Size is  : " + numbers.Count);
 
-			}
+			//}
+
 
 			// The smallest numbers are 
-			Console.WriteLine(" The first  3 smallest numbers are :");
-			foreach (var item in smallest)
-				Console.WriteLine(item); // prints out the smallest numbers stored in the smallest list 
+			//Console.WriteLine(" The first  3 smallest numbers are :");
+			//foreach (var item in smallest)
+			//	Console.WriteLine(item); // prints out the smallest numbers stored in the smallest list 
 
+			//
+
+			//Instead, use List.Sort to get the smallest numbers
+
+			numbers.Sort();
+			for (int i = 0; i < 3; i++)
+			{
+				Console.WriteLine(numbers[i]);
+			}
 
 		}
 

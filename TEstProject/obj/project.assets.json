@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Oscar Niles\\Source\\Repos\\CSHARP-Geofrey-PDP\\TEstProject\\TEstProject.csproj",
-      "projectName": "TEstProject",
-      "projectPath": "C:\\Users\\Oscar Niles\\Source\\Repos\\CSHARP-Geofrey-PDP\\TEstProject\\TEstProject.csproj",
+      "projectUniqueName": "C:\\Users\\Oscar Niles\\Source\\Repos\\CSHARP-Geofrey-PDP\\TEstProject\\CsharpCourse.csproj",
+      "projectName": "CsharpCourse",
+      "projectPath": "C:\\Users\\Oscar Niles\\Source\\Repos\\CSHARP-Geofrey-PDP\\TEstProject\\CsharpCourse.csproj",
       "packagesPath": "C:\\Users\\Oscar Niles\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Oscar Niles\\Source\\Repos\\CSHARP-Geofrey-PDP\\TEstProject\\obj\\",
       "projectStyle": "PackageReference",

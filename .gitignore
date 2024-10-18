@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/CSHARP-Geofrey-PDP/v17/.wsuo
+/.vs/Exercise Array_list _Exercise1/FileContentIndex/e5a81626-07d7-436f-925d-3c73ed66a07b.vsidx
+/.vs/Exercise Array_list _Exercise1/v17/.suo
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json

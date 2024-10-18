@@ -10,8 +10,8 @@ namespace Exercise_Array_list__Exercise1
 			//EnterUserName();
 			Console.WriteLine("exercise 2 below ");
 			//ReverseName();
-			SortListOfNumbers();
-			//TypeExitProgram();
+			//SortListOfNumbers();
+			TypeExitProgram();
 			// SeparatedNumbersWithCommas();
 
 		}
@@ -135,18 +135,13 @@ namespace Exercise_Array_list__Exercise1
 			{
 				Console.WriteLine(" Enter number of wish or type `Quit´ to exit:");
 				var sl = Console.ReadLine();  // get hold of  the number and convert it to integer 
-				if (string.IsNullOrEmpty(sl))  // check if  there is empty input  
+				if (string.IsNullOrEmpty(sl) || sl.ToLower() == "quit")  // check if  there is empty input  
 				{
 					break;
 				}
-				else if (sl.ToLower() == "quit")  //  
-				{
-					break;
-				}
-				// else   @Oscar  if i  leave an else statement get warnings on the lines below 
+				//@Oscar  if i  leave an else statement get warnings on the lines below 
 				var randomInput = int.Parse(sl);
 				listOfNumbers.Add(randomInput);
-
 			}
 
 			Console.WriteLine("Display all Random numbers Including repeated numbers ");
@@ -156,6 +151,7 @@ namespace Exercise_Array_list__Exercise1
 
 			//   should look for unique numbers and display them
 			var uniqueNumbers = new List<int>();
+			//var t = listOfNumbers.ToHashSet(); // A different way to get unique values from a list is to create a set from it. A set is a List that doesnt allow for duplicate values.
 			foreach (var number in listOfNumbers)   //  go through the list  , identify the unique numbers and save 
 			{
 				if (!uniqueNumbers.Contains(number))   // think little more about this line

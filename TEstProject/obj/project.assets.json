@@ -8,26 +8,27 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Oscar Niles\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Oscar Niles\\Source\\Repos\\CSHARP-Geofrey-PDP\\TEstProject\\CsharpCourse.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Desktop\\Jeff\\C##\\CSharp exercises\\TEstProject\\CsharpCourse.csproj",
       "projectName": "CsharpCourse",
-      "projectPath": "C:\\Users\\Oscar Niles\\Source\\Repos\\CSHARP-Geofrey-PDP\\TEstProject\\CsharpCourse.csproj",
-      "packagesPath": "C:\\Users\\Oscar Niles\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Oscar Niles\\Source\\Repos\\CSHARP-Geofrey-PDP\\TEstProject\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\Jeff\\C##\\CSharp exercises\\TEstProject\\CsharpCourse.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\Jeff\\C##\\CSharp exercises\\TEstProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Oscar Niles\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "https://pkgs.dev.azure.com/3Shape/_packaging/ThreeShape-NuGet/nuget/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -39,6 +40,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -60,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -91,8 +91,8 @@ namespace Exercise_Array_list__Exercise1
 					Console.WriteLine("Not five numbers");
 					continue;
 				}
-
-				Console.WriteLine("Display the numbers in container First");
+                Console.WriteLine("test commit ");
+                Console.WriteLine("Display the numbers in container First");
 				foreach (var number in numberArray)
 				{
 					numbers.Add(int.Parse(number));
